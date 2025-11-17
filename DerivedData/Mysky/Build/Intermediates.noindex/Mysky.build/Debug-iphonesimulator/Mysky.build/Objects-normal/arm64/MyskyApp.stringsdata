@@ -1,0 +1,32 @@
+{
+  "source": "/Users/a1/Desktop/prodjekt/Mysky/Mysky/MyskyApp.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 289
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ошибка календаря",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 437
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 479
+        }
+      }
+    ]
+  },
+  "version": 1
+}

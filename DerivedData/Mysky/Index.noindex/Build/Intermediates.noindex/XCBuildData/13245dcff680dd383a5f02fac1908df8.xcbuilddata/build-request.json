@@ -1,0 +1,48 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "1b2244be7bc843948e7109ec2cba15296e45bd6894a358a45c7182f4566008e2"
+    }
+  ],
+  "containerPath" : "/Users/a1/Desktop/prodjekt/Mysky/Mysky.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Products",
+      "pchPath" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

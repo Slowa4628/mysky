@@ -1,0 +1,8 @@
+{
+  "" : {
+    "pch" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Intermediates.noindex/Mysky.build/Debug-iphonesimulator/Mysky.build/Objects-normal/arm64/Mysky-primary-Bridging-header.pch"
+  },
+  "/Users/a1/Desktop/prodjekt/Mysky/Mysky/MyskyApp.swift" : {
+    "object" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Intermediates.noindex/Mysky.build/Debug-iphonesimulator/Mysky.build/Objects-normal/arm64/MyskyApp.__XCPREVIEW_THUNKSUFFIX__.preview-thunk.o"
+  }
+}

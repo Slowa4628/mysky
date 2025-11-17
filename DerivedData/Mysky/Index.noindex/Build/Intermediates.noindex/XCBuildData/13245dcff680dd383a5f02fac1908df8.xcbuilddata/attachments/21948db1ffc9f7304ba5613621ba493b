@@ -1,0 +1,16 @@
+{
+  "" : {
+    "dependencies" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Index.noindex/Build/Intermediates.noindex/Mysky.build/Debug-iphoneos/Mysky.build/Objects-normal/arm64/Mysky-primary.d",
+    "diagnostics" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Index.noindex/Build/Intermediates.noindex/Mysky.build/Debug-iphoneos/Mysky.build/Objects-normal/arm64/Mysky-primary.dia",
+    "emit-module-dependencies" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Index.noindex/Build/Intermediates.noindex/Mysky.build/Debug-iphoneos/Mysky.build/Objects-normal/arm64/Mysky-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Index.noindex/Build/Intermediates.noindex/Mysky.build/Debug-iphoneos/Mysky.build/Objects-normal/arm64/Mysky-primary-emit-module.dia",
+    "pch" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Index.noindex/Build/Intermediates.noindex/Mysky.build/Debug-iphoneos/Mysky.build/Objects-normal/arm64/Mysky-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Index.noindex/Build/Intermediates.noindex/Mysky.build/Debug-iphoneos/Mysky.build/Objects-normal/arm64/Mysky-primary.swiftdeps"
+  },
+  "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Index.noindex/Build/Intermediates.noindex/Mysky.build/Debug-iphoneos/Mysky.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  },
+  "/Users/a1/Desktop/prodjekt/Mysky/Mysky/MyskyApp.swift" : {
+
+  }
+}

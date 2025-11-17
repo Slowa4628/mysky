@@ -1,0 +1,29 @@
+{
+  "" : {
+    "diagnostics" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Intermediates.noindex/Mysky.build/Debug-iphonesimulator/Mysky.build/Objects-normal/arm64/Mysky-primary.dia",
+    "emit-module-dependencies" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Intermediates.noindex/Mysky.build/Debug-iphonesimulator/Mysky.build/Objects-normal/arm64/Mysky-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Intermediates.noindex/Mysky.build/Debug-iphonesimulator/Mysky.build/Objects-normal/arm64/Mysky-primary-emit-module.dia",
+    "pch" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Intermediates.noindex/Mysky.build/Debug-iphonesimulator/Mysky.build/Objects-normal/arm64/Mysky-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Intermediates.noindex/Mysky.build/Debug-iphonesimulator/Mysky.build/Objects-normal/arm64/Mysky-primary.swiftdeps"
+  },
+  "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Intermediates.noindex/Mysky.build/Debug-iphonesimulator/Mysky.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Intermediates.noindex/Mysky.build/Debug-iphonesimulator/Mysky.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Intermediates.noindex/Mysky.build/Debug-iphonesimulator/Mysky.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Intermediates.noindex/Mysky.build/Debug-iphonesimulator/Mysky.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/Mysky.build/Debug-iphonesimulator/Mysky.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Intermediates.noindex/Mysky.build/Debug-iphonesimulator/Mysky.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Intermediates.noindex/Mysky.build/Debug-iphonesimulator/Mysky.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Intermediates.noindex/Mysky.build/Debug-iphonesimulator/Mysky.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Intermediates.noindex/Mysky.build/Debug-iphonesimulator/Mysky.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/a1/Desktop/prodjekt/Mysky/Mysky/MyskyApp.swift" : {
+    "const-values" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Intermediates.noindex/Mysky.build/Debug-iphonesimulator/Mysky.build/Objects-normal/arm64/MyskyApp.swiftconstvalues",
+    "dependencies" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Intermediates.noindex/Mysky.build/Debug-iphonesimulator/Mysky.build/Objects-normal/arm64/MyskyApp.d",
+    "diagnostics" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Intermediates.noindex/Mysky.build/Debug-iphonesimulator/Mysky.build/Objects-normal/arm64/MyskyApp.dia",
+    "index-unit-output-path" : "/Mysky.build/Debug-iphonesimulator/Mysky.build/Objects-normal/arm64/MyskyApp.o",
+    "llvm-bc" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Intermediates.noindex/Mysky.build/Debug-iphonesimulator/Mysky.build/Objects-normal/arm64/MyskyApp.bc",
+    "object" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Intermediates.noindex/Mysky.build/Debug-iphonesimulator/Mysky.build/Objects-normal/arm64/MyskyApp.o",
+    "swift-dependencies" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Intermediates.noindex/Mysky.build/Debug-iphonesimulator/Mysky.build/Objects-normal/arm64/MyskyApp.swiftdeps",
+    "swiftmodule" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Intermediates.noindex/Mysky.build/Debug-iphonesimulator/Mysky.build/Objects-normal/arm64/MyskyApp~partial.swiftmodule"
+  }
+}

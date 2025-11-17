@@ -6,14 +6,124 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		632218BE2EBCF6720077C1E9 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AF53582EBBD52B0090C44B /* WidgetKit.framework */; };
+		632218BF2EBCF6720077C1E9 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AF535A2EBBD52B0090C44B /* SwiftUI.framework */; };
+		632218D02EBCF6730077C1E9 /* MyskyWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 632218BD2EBCF6720077C1E9 /* MyskyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		63502D6D2EA1AB4100D830F8 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63502D6C2EA1AB4100D830F8 /* AuthenticationServices.framework */; };
+		63502D772EA1AB4200D830F8 /* com.Myskyapp.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 63502D6A2EA1AB4100D830F8 /* com.Myskyapp.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		632218CE2EBCF6730077C1E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 630E20222EA1786A00B3488E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 632218BC2EBCF6720077C1E9;
+			remoteInfo = MyskyWidgetExtension;
+		};
+		63502D752EA1AB4200D830F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 630E20222EA1786A00B3488E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63502D692EA1AB4100D830F8;
+			remoteInfo = com.Myskyapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		63502D652EA1A96600D830F8 /* Embed ExtensionKit Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed ExtensionKit Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63502D7C2EA1AB4200D830F8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				632218D02EBCF6730077C1E9 /* MyskyWidgetExtension.appex in Embed Foundation Extensions */,
+				63502D772EA1AB4200D830F8 /* com.Myskyapp.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		630E202A2EA1786A00B3488E /* Mysky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mysky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		632218BD2EBCF6720077C1E9 /* MyskyWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyskyWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		632218D52EBCF6800077C1E9 /* MyskyWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyskyWidgetExtension.entitlements; sourceTree = "<group>"; };
+		63502D6A2EA1AB4100D830F8 /* com.Myskyapp.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = com.Myskyapp.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		63502D6C2EA1AB4100D830F8 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		63AF53582EBBD52B0090C44B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		63AF535A2EBBD52B0090C44B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		632218D42EBCF6730077C1E9 /* Exceptions for "MyskyWidget" folder in "MyskyWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 632218BC2EBCF6720077C1E9 /* MyskyWidgetExtension */;
+		};
+		63502D782EA1AB4200D830F8 /* Exceptions for "com.Myskyapp" folder in "com.Myskyapp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			platformFiltersByRelativePath = {
+				Assets.xcassets = (ios, );
+			};
+			target = 63502D692EA1AB4100D830F8 /* com.Myskyapp */;
+		};
+		636AA8042EA4FC350053B4F6 /* Exceptions for "com.Myskyapp" folder in "Mysky" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+			);
+			target = 630E20292EA1786A00B3488E /* Mysky */;
+		};
+		63AF53772EBCDF290090C44B /* Exceptions for "Mysky" folder in "Mysky" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 630E20292EA1786A00B3488E /* Mysky */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		630E202C2EA1786A00B3488E /* Mysky */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				63AF53772EBCDF290090C44B /* Exceptions for "Mysky" folder in "Mysky" target */,
+			);
 			path = Mysky;
+			sourceTree = "<group>";
+		};
+		632218C02EBCF6720077C1E9 /* MyskyWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				632218D42EBCF6730077C1E9 /* Exceptions for "MyskyWidget" folder in "MyskyWidgetExtension" target */,
+			);
+			path = MyskyWidget;
+			sourceTree = "<group>";
+		};
+		63502D6E2EA1AB4100D830F8 /* com.Myskyapp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				636AA8042EA4FC350053B4F6 /* Exceptions for "com.Myskyapp" folder in "Mysky" target */,
+				63502D782EA1AB4200D830F8 /* Exceptions for "com.Myskyapp" folder in "com.Myskyapp" target */,
+			);
+			path = com.Myskyapp;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -26,13 +136,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		632218BA2EBCF6720077C1E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632218BF2EBCF6720077C1E9 /* SwiftUI.framework in Frameworks */,
+				632218BE2EBCF6720077C1E9 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63502D672EA1AB4100D830F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63502D6D2EA1AB4100D830F8 /* AuthenticationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		630E20212EA1786A00B3488E = {
 			isa = PBXGroup;
 			children = (
+				632218D52EBCF6800077C1E9 /* MyskyWidgetExtension.entitlements */,
 				630E202C2EA1786A00B3488E /* Mysky */,
+				63502D6E2EA1AB4100D830F8 /* com.Myskyapp */,
+				632218C02EBCF6720077C1E9 /* MyskyWidget */,
+				63502D6B2EA1AB4100D830F8 /* Frameworks */,
 				630E202B2EA1786A00B3488E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,8 +172,20 @@
 			isa = PBXGroup;
 			children = (
 				630E202A2EA1786A00B3488E /* Mysky.app */,
+				63502D6A2EA1AB4100D830F8 /* com.Myskyapp.appex */,
+				632218BD2EBCF6720077C1E9 /* MyskyWidgetExtension.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		63502D6B2EA1AB4100D830F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63502D6C2EA1AB4100D830F8 /* AuthenticationServices.framework */,
+				63AF53582EBBD52B0090C44B /* WidgetKit.framework */,
+				63AF535A2EBBD52B0090C44B /* SwiftUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -55,10 +198,14 @@
 				630E20262EA1786A00B3488E /* Sources */,
 				630E20272EA1786A00B3488E /* Frameworks */,
 				630E20282EA1786A00B3488E /* Resources */,
+				63502D652EA1A96600D830F8 /* Embed ExtensionKit Extensions */,
+				63502D7C2EA1AB4200D830F8 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				63502D762EA1AB4200D830F8 /* PBXTargetDependency */,
+				632218CF2EBCF6730077C1E9 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				630E202C2EA1786A00B3488E /* Mysky */,
@@ -69,6 +216,50 @@
 			productName = Mysky;
 			productReference = 630E202A2EA1786A00B3488E /* Mysky.app */;
 			productType = "com.apple.product-type.application";
+		};
+		632218BC2EBCF6720077C1E9 /* MyskyWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 632218D12EBCF6730077C1E9 /* Build configuration list for PBXNativeTarget "MyskyWidgetExtension" */;
+			buildPhases = (
+				632218B92EBCF6720077C1E9 /* Sources */,
+				632218BA2EBCF6720077C1E9 /* Frameworks */,
+				632218BB2EBCF6720077C1E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				632218C02EBCF6720077C1E9 /* MyskyWidget */,
+			);
+			name = MyskyWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = MyskyWidgetExtension;
+			productReference = 632218BD2EBCF6720077C1E9 /* MyskyWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		63502D692EA1AB4100D830F8 /* com.Myskyapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63502D792EA1AB4200D830F8 /* Build configuration list for PBXNativeTarget "com.Myskyapp" */;
+			buildPhases = (
+				63502D662EA1AB4100D830F8 /* Sources */,
+				63502D672EA1AB4100D830F8 /* Frameworks */,
+				63502D682EA1AB4100D830F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				63502D6E2EA1AB4100D830F8 /* com.Myskyapp */,
+			);
+			name = com.Myskyapp;
+			packageProductDependencies = (
+			);
+			productName = com.Myskyapp;
+			productReference = 63502D6A2EA1AB4100D830F8 /* com.Myskyapp.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -81,6 +272,12 @@
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					630E20292EA1786A00B3488E = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					632218BC2EBCF6720077C1E9 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					63502D692EA1AB4100D830F8 = {
 						CreatedOnToolsVersion = 26.0.1;
 					};
 				};
@@ -100,12 +297,28 @@
 			projectRoot = "";
 			targets = (
 				630E20292EA1786A00B3488E /* Mysky */,
+				63502D692EA1AB4100D830F8 /* com.Myskyapp */,
+				632218BC2EBCF6720077C1E9 /* MyskyWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		630E20282EA1786A00B3488E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632218BB2EBCF6720077C1E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63502D682EA1AB4100D830F8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +335,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		632218B92EBCF6720077C1E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63502D662EA1AB4100D830F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		632218CF2EBCF6730077C1E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 632218BC2EBCF6720077C1E9 /* MyskyWidgetExtension */;
+			targetProxy = 632218CE2EBCF6730077C1E9 /* PBXContainerItemProxy */;
+		};
+		63502D762EA1AB4200D830F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63502D692EA1AB4100D830F8 /* com.Myskyapp */;
+			targetProxy = 63502D752EA1AB4200D830F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		630E20332EA1786B00B3488E /* Debug */ = {
@@ -249,10 +489,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Mysky/Mysky.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC5XH3G26C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mysky/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -263,8 +507,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Mysky.Mysky;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Myskyapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -280,10 +526,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Mysky/MyskyRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC5XH3G26C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mysky/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -294,11 +544,139 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Mysky.Mysky;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Myskyapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		632218D22EBCF6730077C1E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = MyskyWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC5XH3G26C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyskyWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyskyWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Myskyapp.MyskyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		632218D32EBCF6730077C1E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = MyskyWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC5XH3G26C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyskyWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyskyWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Myskyapp.MyskyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63502D7A2EA1AB4200D830F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = com.Myskyapp/com.Myskyapp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC5XH3G26C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = com.Myskyapp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = com.Myskyapp;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Myskyapp.com-Myskyapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63502D7B2EA1AB4200D830F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = com.Myskyapp/com.Myskyapp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC5XH3G26C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = com.Myskyapp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = com.Myskyapp;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Myskyapp.com-Myskyapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,6 +701,24 @@
 			buildConfigurations = (
 				630E20362EA1786B00B3488E /* Debug */,
 				630E20372EA1786B00B3488E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		632218D12EBCF6730077C1E9 /* Build configuration list for PBXNativeTarget "MyskyWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				632218D22EBCF6730077C1E9 /* Debug */,
+				632218D32EBCF6730077C1E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63502D792EA1AB4200D830F8 /* Build configuration list for PBXNativeTarget "com.Myskyapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63502D7A2EA1AB4200D830F8 /* Debug */,
+				63502D7B2EA1AB4200D830F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

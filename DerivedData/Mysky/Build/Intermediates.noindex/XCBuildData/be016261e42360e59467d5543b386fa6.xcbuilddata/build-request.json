@@ -1,0 +1,64 @@
+{
+  "buildCommand" : {
+    "command" : "preview",
+    "style" : "xojit"
+  },
+  "buildDescriptionID" : "6cffd4adcc78e938e5f9a1950912d267",
+  "configuredTargets" : [
+    {
+      "guid" : "1b2244be7bc843948e7109ec2cba15296e45bd6894a358a45c7182f4566008e2"
+    }
+  ],
+  "containerPath" : "/Users/a1/Desktop/prodjekt/Mysky/Mysky.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator26.0",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Products",
+      "derivedDataPath" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/a1/Desktop/prodjekt/Mysky/DerivedData/Mysky/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone18,1",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "26.0.1",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone18,1",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES",
+          "TARGET_DEVICE_IDENTIFIER" : "5666EE9F-E00F-49AD-A7EC-F03655638179",
+          "TARGET_DEVICE_MODEL" : "iPhone18,1",
+          "TARGET_DEVICE_OS_VERSION" : "26.0.1",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

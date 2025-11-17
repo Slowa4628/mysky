@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>11</integer>
+	<key>logs</key>
+	<dict>
+		<key>268B1F4A-743B-48BB-B973-D21FE699C953</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>268B1F4A-743B-48BB-B973-D21FE699C953.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>4</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Mysky project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Mysky</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build (Automatic) Mysky</string>
+			<key>timeStartedRecording</key>
+			<real>782341896.66642499</real>
+			<key>timeStoppedRecording</key>
+			<real>782341905.76830006</real>
+			<key>title</key>
+			<string>Build (Automatic) Mysky</string>
+			<key>uniqueIdentifier</key>
+			<string>268B1F4A-743B-48BB-B973-D21FE699C953</string>
+		</dict>
+		<key>C44AA45D-0BA6-4D32-BF83-517AAE09849D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C44AA45D-0BA6-4D32-BF83-517AAE09849D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>4</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Mysky project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Mysky</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build (Automatic) Mysky</string>
+			<key>timeStartedRecording</key>
+			<real>782342917.13529503</real>
+			<key>timeStoppedRecording</key>
+			<real>782342921.98446798</real>
+			<key>title</key>
+			<string>Build (Automatic) Mysky</string>
+			<key>uniqueIdentifier</key>
+			<string>C44AA45D-0BA6-4D32-BF83-517AAE09849D</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
