@@ -1,4 +1,4 @@
-# Publishes /docs to GitHub Pages (enables site once Actions are allowed).
+# Deploys folder docs/ to GitHub Pages via Actions (source: GitHub Actions).
 name: Deploy Pages from docs
 
 on:
@@ -26,8 +26,6 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-
-      - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3
         with:
