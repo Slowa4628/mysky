@@ -1,0 +1,25 @@
+Настройка публичных страниц (Privacy / Terms) на GitHub Pages
+================================================================
+
+Зачем: Safari и App Store Connect ожидают URL с Content-Type: text/html.
+Папка /docs в репозитории при включении Pages отдаёт HTML как страницу, а не как «сырой текст».
+
+Шаги (один раз на репозиторий mysky):
+----------------------------------------------------------------
+1. Скопируйте всю папку `docs/` из этого проекта в КОРЕНЬ репозитория GitHub
+   (рядом с README), закоммитьте и запушьте в ветку `main`.
+
+2. На GitHub: репозиторий → Settings → Pages.
+
+3. Build and deployment:
+   - Source: Deploy from a branch
+   - Branch: `main`, folder: `/docs` → Save.
+
+4. Через 1–2 минуты проверьте в браузере:
+   https://slowa4628.github.io/mysky/privacy.html
+   https://slowa4628.github.io/mysky/terms.html
+
+5. Если имя пользователя или репозитория другое — замените базовый URL в коде:
+   затмение/2.swift → `AppLegalPublicPages` → `base`.
+
+Файл `.nojekyll` отключает Jekyll, чтобы статические HTML не ломались при сборке.
