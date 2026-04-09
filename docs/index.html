@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Legal documents for My Sky — iOS astronomy app.">
+  <title>My Sky — Legal</title>
+  <style>
+    :root {
+      --bg: #f4f6fb;
+      --surface: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --accent: #2563eb;
+      --accent-hover: #1d4ed8;
+      --border: #e2e8f0;
+      --radius: 12px;
+      --shadow: 0 4px 24px rgba(15, 23, 42, 0.06);
+      --font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: var(--font);
+      color: var(--text);
+      background: radial-gradient(1200px 600px at 10% -10%, #dbeafe 0%, transparent 50%),
+                  radial-gradient(800px 400px at 100% 0%, #e0e7ff 0%, transparent 45%),
+                  var(--bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.25rem;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      max-width: 28rem;
+      width: 100%;
+      padding: 2.25rem 1.75rem;
+      text-align: center;
+    }
+    h1 {
+      font-family: var(--serif);
+      font-size: clamp(1.75rem, 4vw, 2rem);
+      margin: 0 0 0.35rem;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin: 0 0 1.75rem;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .links a {
+      display: block;
+      padding: 0.9rem 1rem;
+      border-radius: 10px;
+      background: linear-gradient(180deg, #eff6ff 0%, #dbeafe 100%);
+      border: 1px solid #bfdbfe;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .links a:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(37, 99, 235, 0.15);
+      color: var(--accent-hover);
+    }
+    .links a span {
+      display: block;
+      font-weight: 400;
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-top: 0.25rem;
+    }
+    footer {
+      margin-top: 1.75rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>My Sky</h1>
+    <p class="sub">Legal documents · English</p>
+    <div class="links">
+      <a href="privacy.html">
+        Privacy Policy
+        <span>Data &amp; permissions</span>
+      </a>
+      <a href="terms.html">
+        Terms of Use &amp; Subscription
+        <span>Eclipse Pro &amp; App Store</span>
+      </a>
+    </div>
+    <footer>
+      <a href="mailto:mysky.app@tutamail.com">mysky.app@tutamail.com</a>
+    </footer>
+  </div>
+</body>
+</html>
