@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for My Sky — iOS app for astronomy and eclipses.">
+  <title>Privacy Policy — My Sky</title>
+  <style>
+    :root {
+      --bg: #f4f6fb;
+      --surface: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --accent: #2563eb;
+      --accent-hover: #1d4ed8;
+      --border: #e2e8f0;
+      --radius: 12px;
+      --shadow: 0 4px 24px rgba(15, 23, 42, 0.06);
+      --font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: var(--font);
+      font-size: 17px;
+      line-height: 1.65;
+      color: var(--text);
+      background: radial-gradient(1200px 600px at 10% -10%, #dbeafe 0%, transparent 50%),
+                  radial-gradient(800px 400px at 100% 0%, #e0e7ff 0%, transparent 45%),
+                  var(--bg);
+    }
+    .wrap {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 4rem;
+    }
+    header.site {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    header.site .badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+    }
+    header.site h1 {
+      font-family: var(--serif);
+      font-size: clamp(1.75rem, 5vw, 2.25rem);
+      font-weight: 700;
+      line-height: 1.2;
+      margin: 0 0 0.5rem;
+      letter-spacing: -0.02em;
+    }
+    header.site .meta {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    nav.legal-nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem 1rem;
+      margin-bottom: 2rem;
+      font-size: 0.9rem;
+    }
+    nav.legal-nav a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav.legal-nav a:hover { text-decoration: underline; color: var(--accent-hover); }
+    nav.legal-nav span { color: var(--muted); }
+    article.doc {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 2rem 1.75rem;
+    }
+    @media (min-width: 640px) {
+      article.doc { padding: 2.5rem 2.25rem; }
+    }
+    article.doc h2 {
+      font-family: var(--serif);
+      font-size: 1.35rem;
+      margin: 2rem 0 0.75rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      letter-spacing: -0.02em;
+    }
+    article.doc h2:first-of-type {
+      margin-top: 0;
+      padding-top: 0;
+      border-top: none;
+    }
+    article.doc h3 {
+      font-size: 1.05rem;
+      margin: 1.5rem 0 0.5rem;
+      color: var(--text);
+    }
+    article.doc p, article.doc li { color: var(--muted); }
+    article.doc strong { color: var(--text); }
+    article.doc ul, article.doc ol { padding-left: 1.25rem; }
+    article.doc li { margin: 0.35rem 0; }
+    article.doc hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 1.75rem 0;
+    }
+    .footnote {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.9rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+    footer.site {
+      margin-top: 2.5rem;
+      text-align: center;
+      font-size: 0.875rem;
+      color: var(--muted);
+    }
+    footer.site a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    footer.site a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <div class="badge">Legal</div>
+      <h1>Privacy Policy</h1>
+      <p class="meta">My Sky for iOS · Last updated April 8, 2026</p>
+    </header>
+
+    <nav class="legal-nav" aria-label="Legal documents">
+      <span>Privacy Policy</span>
+      <span aria-hidden="true">·</span>
+      <a href="terms.html">Terms of Use &amp; Subscription</a>
+    </nav>
+
+    <article class="doc">
+      <h2>Who this document is for</h2>
+      <p>This document explains what information may be involved when you use My Sky (the “App”), its widgets, and optional notification features if you turn them on. It covers what happens <strong>on your device</strong>, what is handled by <strong>Apple and subscription partners</strong>, and when the App makes <strong>requests to public space-weather data sources</strong>.</p>
+      <p>We aim to process only what is needed for the features you choose to use.</p>
+
+      <h2>Infrastructure: no developer “cloud” for your content</h2>
+      <p>The developer of My Sky does <strong>not</strong> operate compute farms or databases that collect your App settings, chosen map location, Moon-phase results, eclipse schedules, UI preferences, or other <strong>content you create inside the App</strong>. There is <strong>no</strong> centralized repository on our side: processing runs on your <strong>iPhone or iPad</strong>, and data is stored in <strong>standard on-device storage</strong>. Where the main app and widget need shared data, iOS <strong>App Groups</strong> provide a <strong>protected local container on the same device</strong>—not an upload to us.</p>
+      <p><strong>All astronomical math runs on your device</strong>, including phases, rise/set, visibility, and <strong>finding and displaying solar and lunar eclipses</strong> for the dates and coordinates you provide. Coordinates, dates, and intermediate steps of those calculations are <strong>not sent</strong> to “our” remote service for recalculation—there is no such channel.</p>
+      <p>The <strong>typical network interactions</strong> that do not involve the developer’s own servers are:</p>
+      <ol>
+        <li><strong>Apple</strong> — in-app purchases and subscriptions via the App Store, and entitlement checks under Apple’s rules.</li>
+        <li><strong>RevenueCat</strong> (if enabled in the build) — operational sync of subscription status and paywall content; see RevenueCat’s own data documentation. This is <strong>not</strong> storage of your astronomical tables on our machines.</li>
+        <li><strong>Public space-environment data providers</strong> — when you open relevant screens, the App may request, over HTTPS from your device, aggregated data from <strong>NOAA</strong> (including SWPC) and, where applicable, <strong>NASA</strong>: geomagnetic indices, events such as <strong>magnetic disturbances and storms</strong>, <strong>solar wind</strong> parameters, <strong>solar flares</strong>, as implemented in the current version. Requests go <strong>directly</strong>, not through the developer’s infrastructure; the API operator’s policies apply, including for <strong>IP addresses</strong> and connection metadata.</li>
+      </ol>
+      <p>In short, “we don’t use our servers for your content” means there is <strong>no developer-operated backend</strong> for user accounts or mirroring your App data. Online activity is limited to the external services above and their policies.</p>
+
+      <h2>Categories of information</h2>
+
+      <h3>Location</h3>
+      <p>If you grant location access, iOS provides accuracy <strong>according to its own rules</strong> (approximate to precise). That supports sky calculations “for your place.” Without permission, some modes may rely on manual coordinates or work in a limited way, as implemented in the build.</p>
+      <p>Coordinates are <strong>not sent to the developer of My Sky</strong>; they remain in local storage and/or the App Group on your device.</p>
+
+      <h3>Choosing a place by name (bundled directory)</h3>
+      <p>If you pick a locality from a <strong>catalog bundled with the App</strong>, search and coordinate lookup happen <strong>on your device</strong>. The city list is <strong>shipped in the app binary</strong> (built from open data, including <strong>GeoNames</strong>; license and attribution may appear in About / licenses). <strong>City names and resulting coordinates are not sent</strong> to the developer of My Sky for “parsing” on our server—they are applied locally like manually entered coordinates.</p>
+
+      <h3>Paid features (Eclipse Pro and others)</h3>
+      <p>Access to paid capabilities may rely on <strong>product identifiers</strong>, <strong>subscription state</strong>, and related <strong>technical fields</strong> as defined by Apple and, when used, RevenueCat. Payments go through <strong>Apple</strong>; RevenueCat’s handling is described in RevenueCat’s official privacy policy.</p>
+
+      <h3>Push notifications</h3>
+      <p>If you enable notifications, the system issues a <strong>delivery token</strong> used by Apple to deliver reminders and events supported by the App.</p>
+
+      <h3>Stability and crash reports</h3>
+      <p><strong>Crash logs</strong>, <strong>device model</strong>, and <strong>OS version</strong> may be processed if you submit a report or if you opt in to developer diagnostics in iOS settings. The goal is to fix defects.</p>
+
+      <h3>Advertising and IDFA</h3>
+      <p>As of the document date above, the App <strong>does not show ads</strong> and <strong>does not use the advertising identifier (IDFA) for ad targeting</strong>. If that changes, this document will be updated and iOS may request separate permission where required.</p>
+
+      <h3>Space weather (NOAA / NASA, etc.)</h3>
+      <p>Screens that load <strong>public</strong> near-Earth environment indicators connect <strong>directly</strong> to endpoints such as <strong>services.swpc.noaa.gov</strong> and, when applicable, <strong>NASA</strong> portals. This is not building a personal profile: the App requests <strong>general indices and event feeds</strong>. The developer of My Sky does <strong>not</strong> receive your astronomical calculation data through that channel; the API operator may process <strong>network metadata</strong> under its own policies.</p>
+
+      <h2>Permissions in iOS Settings</h2>
+      <p>The App may request <strong>location</strong> (see above), <strong>notifications</strong> (see above), and <strong>Calendar</strong>—only if that integration exists in your build and you confirm the system prompt. You can <strong>revoke</strong> any permission at any time in the Settings app.</p>
+
+      <h2>Organizations other than the developer</h2>
+      <p>We do <strong>not</strong> maintain a warehouse of your App content on our side (see the beginning of this document). Third parties may process data as follows:</p>
+      <ul>
+        <li><strong>Apple</strong> — App Store, subscriptions, iOS infrastructure.</li>
+        <li><strong>RevenueCat</strong> — when enabled, subscription accounting on their systems.</li>
+        <li><strong>Public space-weather API operators</strong> — NOAA, NASA, and similar; see the space weather section.</li>
+      </ul>
+      <p>We do <strong>not sell</strong> personal data as a commodity and do <strong>not</strong> mirror your App’s contents on a separate developer server.</p>
+
+      <h2>Retention and security</h2>
+      <p>Astronomical calculation results (<strong>including eclipse logic</strong>), preferences, and derived files stay <strong>on your device by default</strong>; <strong>no developer server</strong> is used for that. Security relies on iOS mechanisms. Do not enter highly sensitive information in fields not meant for it. After you delete the App, data is usually erased with it (subject to any iOS-level retention rules).</p>
+
+      <h2>Children</h2>
+      <p>The product is not designed to knowingly collect data from children below the age where parental or user consent is required under local law. If you believe data was shared without a proper basis, contact <strong>mysky.app@tutamail.com</strong>.</p>
+
+      <h2>Changes to this document</h2>
+      <p>This text may change; the date at the top reflects the last material update. Check the version linked from the App Store listing and/or inside the App.</p>
+
+      <h2>Contact</h2>
+      <p>Privacy questions: <strong>mysky.app@tutamail.com</strong></p>
+
+      <p class="footnote">The App and this document may be updated over time. For serious or disputed legal questions in your country, consider consulting a qualified professional.</p>
+    </article>
+
+    <footer class="site">
+      <p><a href="terms.html">Terms of Use &amp; Subscription</a> · <a href="mailto:mysky.app@tutamail.com">mysky.app@tutamail.com</a></p>
+      <p>© My Sky</p>
+    </footer>
+  </div>
+</body>
+</html>
